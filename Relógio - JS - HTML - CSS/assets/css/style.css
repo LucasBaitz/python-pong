@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+ --cor-principal: rgb(169, 194, 200);
+ --cor-secundaria: rgb(9, 48, 56);
+ --cor-meio : rgb(134, 155, 161);
+ --cor-botao : rgb(107, 123, 128);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--cor-principal);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  text-align: center;
+  max-width: 640px;
+  margin: 50px auto;
+  background: var(--cor-meio);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.espaco-botao {
+  justify-content: space-between;
+  text-align: center;
+}
+
+.tempo {
+  font-size: 4em;
+  text-align: center;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.botao {
+  padding: 0;
+  border: none;
+  border-radius: 40%;
+  flex: 0.5;
+  height: 5em;
+  width: 7em;
+  background-color: var(--cor-botao);
+
+}
+
+.botao:active {
+  background-color: var(--cor-secundaria);
+
+}
+
+.options {
+  height: 4em;
+  width: 8em;
+  background-color: var(--cor-botao);
+  padding: 0;
+  border: none;
+  border-radius: 10%;
+
+
+}
+
+.options:active {
+  
+  background-color: var(--cor-secundaria);
+}
+
+.data {
+  size: 3em;
+  text-align: center;
+}
+
+.opcoes {
+  text-align: center;
+}
+
