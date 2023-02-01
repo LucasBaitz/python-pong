@@ -84,3 +84,20 @@ body {
   text-align: center;
 }
 
+.input-tempo {
+  border: none;
+  background-color: var(--cor-meio);
+  height: 100px;
+  width: 130px;
+  text-align: center;
+  font-size: 99px;
+  
+}
+
+::placeholder {
+  color: black;
+}
+
+.tempos {
+  text-align: center;
+}
