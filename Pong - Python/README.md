@@ -1,5 +1,6 @@
 <h1>Jogo Pong feito em Python</h1>
->> Status do projeto: Finalizado
+
+> Status do projeto: Finalizado
 
 Instruções:
 Certifique-se de que todos os arquivos estão presentes na mesma pasta.
