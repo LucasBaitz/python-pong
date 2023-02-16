@@ -1,8 +1,17 @@
-<h1> Jogo Pong feito em Python /h1>
+<h1> Jogo Pong feito em Python </h1>
 
-Instruções: 
+> Status do projeto: Finalizado 
+
+<h2>Instruções:</h2>
+
 - Tenha certeza de que todos os arquivos estão presentes na mesma pasta
 - Certifique de que a biblioteca pygame está instalada 
+Caso não tenha a biblioteca pygame instalada, basta abrir seu terminal e digitar o comando
+```
+pip install pygame
+```
+Caso este metodo não funcione, certifique-se de possuir o python e pip instalados e verifique a documentação da biblioteca em : https://www.pygame.org
+
 - Caso não consiga baixar basta copiar os codigos e criar arquivos com os nomes correspondentes 
 - Para jogar contra a IA é necessario retirar a linha "player_2.controles2()" e substituir por "player_2.IA() (Linha 45)
 
